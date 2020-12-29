@@ -18,11 +18,6 @@ export const DETAILS: Detail[]=[
         id:2,
         image:'assets/image/Salle Reseau2.jpg',
         description:'Salle Réseaux.'
-    },
-    {
-        id:3,
-        image:'assets/image/Salle Reseau2.jpg',
-        description:'Salle Réseaux.'
     }
     
 ]

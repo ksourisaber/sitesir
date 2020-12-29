@@ -1,10 +1,12 @@
 body{
-    font-family:Roboto;
+    font-family: serif;
+    position: static;
 }
 
 footer{
-     background-color: #33383c;
-     padding:70px 0px;
+     background-color: #428bca;
+     width: 100%;
+     text-align: center;
 }	       
 
 footer ul li{
@@ -12,33 +14,30 @@ footer ul li{
 }
 
 .adress span , .contact span , .social span{
-   color: #FFF; 
+   color: #FFf; 
+   height: 300;
    font-weight: 800; 
-   padding-bottom: 10px; 
+   padding-top:20px; 
    margin-bottom: 20px;
-   display: block;
    text-transform: uppercase;
    font-size: 20px;
    letter-spacing: 3px;
 }
  
 .adress li p , .contact li a , .social li a{
-    color:#FFF;
+    color:#FFa000;
     letter-spacing: 2px;
     text-decoration:none;
     font-size:15px;
 }
 
 .social li{
-    float:left;
+    float: right;
+    position: relative;
 }
 
 .adress , .contact , .social {
-    list-style: none;
+    list-style-type: none;
+
 }
 
-.fa{
-    color:#9c9c9c;
-    margin-right: 15px;
-    font-size:14px;
-}

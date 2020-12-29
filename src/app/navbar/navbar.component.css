@@ -1,0 +1,42 @@
+.navbar-default{
+    background-color: #4373a7;
+    border-color: #428bca;
+    border-radius: 0%;
+
+}
+.navbar-default  .navbar-brand,
+.navbar-default  .navbar-brand:hover,
+.navbar-default  .navbar-brand:focus{
+    color:#ffa000;
+}
+
+.navbar-default .navbar-nav > li >  a {
+    color: #ffa000;
+}
+.navbar-default.navbar-nav  > li  > a:hover,
+.navbar-default.navbar-nav  > li  > a:focus{
+    background-color: #428bca;
+}
+
+.navbar-default  .navbar-nav> .active> a,
+.navbar-default  .navbar-nav> .active>  a:hover,
+.navbar-default   .navbar-nav> .active> a:focus{
+    color:#ffa000;
+    background-color:#428bca;
+}
+.navbar-default .navbar-text{
+    color: #ffa000;
+}
+.navbar-default .navbar-toggle{
+    border-color:#428bca;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus{
+    background-color: #428bca;
+}
+.navbar-default .navbar-toggle .icon-bar{
+    background-color: #ffa000;
+}
+.navbar-default .btn-default {
+    background-color: #FFa000;;
+}

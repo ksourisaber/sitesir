@@ -1,25 +1,40 @@
-<nav class="navbar navbar-inverse">
-    <div class="container-fluid">
-      <div class="navbar-header">
-        <a class="navbar-brand" href="#">Intranet SIR</a>
-      </div>
-      <ul class="nav navbar-nav">
-        <li class="active"><a routerLink="home">Présentation</a></li>
-        <li class="dropdown">
-          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Formulaires
-          <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">Reservation d'une salle</a></li>
-            <li><a href="#">Creation d'un compte mail</a></li>
-            <li><a href="#">Intervention informatique</a></li>
-            <li><a href="#">Demande du materiel informatique</a></li>
-          </ul>
-        </li>
-        <li><a routerLink="guides">Guies&Procédures</a></li>
-        <li><a routerLink="logiciels">Nos logiciels</a></li>
-      </ul>
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand active" href="#"><strong>CNSTN</strong></a>
     </div>
-  </nav>
-  <router-outlet></router-outlet>
-  
+    <ul class="nav navbar-nav">
+      <li class="#"><a routerLink="home">Présentation</a></li>
+      <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Formulaires
+          <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="#">Reservation d'une salle</a></li>
+          <li><a href="#">Creation d'un compte mail</a></li>
+          <li><a routerLink="intervention">Intervention informatique</a></li>
+          <li><a href="#">Demande du materiel informatique</a></li>
+        </ul>
+   
+      <li><a routerLink="guides">Guides&Procédures</a></li>
+      <li><a routerLink="logiciels">Nos logiciels</a></li>
+      <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="contacts">Nos Contacts
+          <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+            <li><a routerLink="DG">Direction Génerale</a></li>
+            <li><a routerLink="DSIN">DSIN</a></li>
+            <li><a routerLink="DAAF">DAAF</a></li>
+            <li><a routerLink="DCG">DCG</a></li>
+            <li><a routerLink="DDVP">DDVP</a></li>
+            <li><a routerLink="DREM">DREM</a></li>
+            <li><a routerLink="DREV">DREV</a></li>
+            
+        </ul>
+     
  
+     
+    </ul>
+  </div>
+</nav>
+  
+<router-outlet></router-outlet>

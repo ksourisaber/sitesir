@@ -10,6 +10,17 @@ import { GuidesComponent } from './guides/guides.component';
 import { FooterComponent } from './footer/footer.component';
 import { GalerieComponent } from './galerie/galerie.component';
 import { DetailgalerieComponent } from './detailgalerie/detailgalerie.component';
+import { DocumentsComponent } from './documents/documents.component';
+import { DGComponent } from './dg/dg.component';
+import { DSINComponent } from './dsin/dsin.component';
+import { DAAFComponent } from './daaf/daaf.component';
+import { DCGComponent } from './dcg/dcg.component';
+import { DDVPComponent } from './ddvp/ddvp.component';
+import { DREVComponent } from './drev/drev.component';
+import { DREMComponent } from './drem/drem.component';
+import { InterventionsComponent } from './interventions/interventions.component';
+import { ContactsComponent } from './contacts/contacts.component';
+import { VisioconfComponent } from './visioconf/visioconf.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +31,19 @@ import { DetailgalerieComponent } from './detailgalerie/detailgalerie.component'
     GuidesComponent,
     FooterComponent,
     GalerieComponent,
-    DetailgalerieComponent
+    DetailgalerieComponent,
+    DocumentsComponent,
+    DGComponent,
+    DSINComponent,
+    DAAFComponent,
+    DCGComponent,
+    DDVPComponent,
+    DREVComponent,
+    DREMComponent,
+    InterventionsComponent,
+    ContactsComponent,
+    VisioconfComponent,
+ 
   ],
   imports: [
     BrowserModule,
