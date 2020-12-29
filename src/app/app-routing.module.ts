@@ -15,7 +15,7 @@ import { InterventionsComponent } from './interventions/interventions.component'
 import { LogicielsComponent } from './logiciels/logiciels.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { PresentationComponent } from './presentation/presentation.component';
-import { VisioconfComponent } from './visioconf/visioconf.component';
+
 
 const routes: Routes = [
   { path: 'home', component: PresentationComponent },
@@ -31,8 +31,6 @@ const routes: Routes = [
   {path: 'DREV', component: DREVComponent},
   {path: 'intervention', component: InterventionsComponent},
   {path: 'contacts', component: ContactsComponent},
-  {path: 'visioconf', component:VisioconfComponent},
-  
   {path: '**', component: GalerieComponent }
   
 ];

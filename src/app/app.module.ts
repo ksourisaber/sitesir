@@ -20,7 +20,7 @@ import { DREVComponent } from './drev/drev.component';
 import { DREMComponent } from './drem/drem.component';
 import { InterventionsComponent } from './interventions/interventions.component';
 import { ContactsComponent } from './contacts/contacts.component';
-import { VisioconfComponent } from './visioconf/visioconf.component';
+
 
 @NgModule({
   declarations: [
@@ -42,7 +42,7 @@ import { VisioconfComponent } from './visioconf/visioconf.component';
     DREMComponent,
     InterventionsComponent,
     ContactsComponent,
-    VisioconfComponent,
+    
  
   ],
   imports: [
