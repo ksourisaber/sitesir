@@ -20,6 +20,10 @@ import { DREVComponent } from './drev/drev.component';
 import { DREMComponent } from './drem/drem.component';
 import { InterventionsComponent } from './interventions/interventions.component';
 import { ContactsComponent } from './contacts/contacts.component';
+import { FdgComponent } from './fdg/fdg.component';
+import { FDSCComponent } from './fdsc/fdsc.component';
+import { FDVPSComponent } from './fdvps/fdvps.component';
+import { FDSINComponent } from './fdsin/fdsin.component';
 
 
 @NgModule({
@@ -42,6 +46,10 @@ import { ContactsComponent } from './contacts/contacts.component';
     DREMComponent,
     InterventionsComponent,
     ContactsComponent,
+    FdgComponent,
+    FDSCComponent,
+    FDVPSComponent,
+    FDSINComponent,
     
  
   ],

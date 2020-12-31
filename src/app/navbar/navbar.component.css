@@ -38,5 +38,9 @@
     background-color: #ffa000;
 }
 .navbar-default .btn-default {
-    background-color: #FFa000;;
+    background-color: #FFa000;
+}
+.navbar-default .dropdown-menu
+{
+    background-color: #c48f34;
 }

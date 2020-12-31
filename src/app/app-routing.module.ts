@@ -9,6 +9,10 @@ import { DocumentsComponent } from './documents/documents.component';
 import { DREMComponent } from './drem/drem.component';
 import { DREVComponent } from './drev/drev.component';
 import { DSINComponent } from './dsin/dsin.component';
+import { FdgComponent } from './fdg/fdg.component';
+import { FDSCComponent } from './fdsc/fdsc.component';
+import { FDSINComponent } from './fdsin/fdsin.component';
+import { FDVPSComponent } from './fdvps/fdvps.component';
 import { GalerieComponent } from './galerie/galerie.component';
 import { GuidesComponent } from './guides/guides.component';
 import { InterventionsComponent } from './interventions/interventions.component';
@@ -31,6 +35,10 @@ const routes: Routes = [
   {path: 'DREV', component: DREVComponent},
   {path: 'intervention', component: InterventionsComponent},
   {path: 'contacts', component: ContactsComponent},
+  {path:'formulaireDG',component:FdgComponent},
+  {path:'formulaireDSC',component:FDSCComponent},
+  {path:'formulaireDVPS',component:FDVPSComponent},
+  {path:'formulaireDSIN',component:FDSINComponent},
   {path: '**', component: GalerieComponent }
   
 ];
