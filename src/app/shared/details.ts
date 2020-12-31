@@ -3,21 +3,38 @@ import { Detail } from './detail';
 
 export const DETAILS: Detail[]=[
 
+    
+    
     {
         id:0,
-        image:'/assets/image/cnstn.jpg',
-        description:'Le CNSTN entretient des relations privilégiées de coopération multilatérale avec Agence Internationale dEnergie Atomique (AIEA) et de coopération bilatérale avec le Commissariat à Energie Atomique (CEA) français.'
-    
+        image:'assets/image/cnstnlogo.jpg',
+        description:'LOGO CNSTN'
     },
     {
         id:1,
-        image:'/assets/image/SIR.jpg',
-        description:'Service Informatique et Reseaux.'
+        image:'assets/image/cnstnsiege.jpg',
+        description:'Bienvenue CNSTN'
     },
     {
         id:2,
-        image:'assets/image/Salle Reseau2.jpg',
-        description:'Salle Réseaux.'
+        image:'assets/image/cnstnporche.jpg',
+        description:'Porche CNSTN'
+    }, 
+ 
+    {
+        id:3,
+        image:'assets/image/cnstnrecrute.png',
+        description:'concours interne'
+    }, 
+    {
+        id:4,
+        image:'assets/image/SalleReseau.jpg',
+        description:'Salle Réseaux'
+    },
+    {
+        id:5,
+        image:'assets/image/CNSTN2.jpg',
+        description:'Role de CNSTN'
     }
     
 ]

@@ -1,13 +1,13 @@
 <div class="panel panel-primary">
-  <div class="panel-heading"><h4><b>Centre National des Sciences et Technologies Nucléaires</b></h4></div>
+  <div class="panel-heading"><h4>Centre National des Sciences et Technologies Nucléaires</h4></div>
   <div class="panel-body">
 <div class="container">
     
     
-    <div class="row" >
+    <div>
       <div class="col-sm-4"  *ngFor="let detail of details" (click)="onselect(detail)">
         <div class="thumbnail">
-            <img src={{detail.image}} alt="detail.name" style="width:100%">
+            <img src={{detail.image}} alt="detail.name" style="height:250px; width: 100%;">
         </div>
       </div>
   </div>
