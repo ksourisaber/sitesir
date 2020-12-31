@@ -8,7 +8,7 @@ import { DGComponent } from './dg/dg.component';
 import { DocumentsComponent } from './documents/documents.component';
 import { DREMComponent } from './drem/drem.component';
 import { DREVComponent } from './drev/drev.component';
-import { DSINComponent } from './dsin/dsin.component';
+import { DSINComponent } from './dsn/dsin.component';
 import { FdgComponent } from './fdg/fdg.component';
 import { FDSCComponent } from './fdsc/fdsc.component';
 import { FDSINComponent } from './fdsin/fdsin.component';

@@ -12,7 +12,7 @@ import { GalerieComponent } from './galerie/galerie.component';
 import { DetailgalerieComponent } from './detailgalerie/detailgalerie.component';
 import { DocumentsComponent } from './documents/documents.component';
 import { DGComponent } from './dg/dg.component';
-import { DSINComponent } from './dsin/dsin.component';
+import { DSINComponent } from './dsn/dsin.component';
 import { DAAFComponent } from './daaf/daaf.component';
 import { DCGComponent } from './dcg/dcg.component';
 import { DDVPComponent } from './ddvp/ddvp.component';
