@@ -7,12 +7,12 @@
     <div>
       <div class="col-sm-4"  *ngFor="let detail of details" (click)="onselect(detail)">
         <div class="thumbnail">
-            <img src={{detail.image}} alt="detail.name" style="height:250px; width: 100%;">
-        </div>
+          <img src={{detail.image}} alt="detail.name" style="height:250px; width: 100%;">
       </div>
+     
   </div>
   <app-detailgalerie [detail]="selectedgalerie"></app-detailgalerie>
 </div>
   </div>
-</div>
+
 

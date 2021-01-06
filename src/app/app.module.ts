@@ -26,6 +26,7 @@ import { FDVPSComponent } from './fdvps/fdvps.component';
 import { FDSINComponent } from './fdsin/fdsin.component';
 
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -50,7 +51,7 @@ import { FDSINComponent } from './fdsin/fdsin.component';
     FDSCComponent,
     FDVPSComponent,
     FDSINComponent,
-    
+
  
   ],
   imports: [

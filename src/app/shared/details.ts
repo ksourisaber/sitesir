@@ -6,6 +6,7 @@ export const DETAILS: Detail[]=[
     
     
     {
+
         id:0,
         image:'assets/image/cnstnlogo.jpg',
         description:'LOGO CNSTN'

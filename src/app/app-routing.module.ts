@@ -21,6 +21,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { PresentationComponent } from './presentation/presentation.component';
 
 
+
 const routes: Routes = [
   { path: 'home', component: PresentationComponent },
   { path: 'logiciels', component: LogicielsComponent },
